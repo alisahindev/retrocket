@@ -1,0 +1,13 @@
+{
+  "id": 6,
+  "user": {
+    "id": 3,
+    "name": "Sebastian",
+    "surname": "Rogers",
+    "profile_image": "/images/avatars/3.jpg"
+  },
+  "title": "Aenean feugiat ligula non nulla gravida iaculis",
+  "content": "Proin risus dui, mattis vel felis non, luctus consectetur turpis. Integer tincidunt mi et augue sollicitudin, at iaculis lacus varius. Cras bibendum semper quam, in pretium est. Vivamus dignissim eget nisl non blandit. Maecenas dui nulla, vestibulum id odio ac, suscipit ultricies nulla. Suspendisse potenti. Aenean commodo ut ex eu maximus. Aenean cursus congue tortor, vulputate euismod purus sollicitudin ut. Proin vitae purus erat. Etiam scelerisque vel sem quis ultrices. Nam id laoreet augue, sit amet vehicula dui. Nullam feugiat sodales mattis. Vestibulum ut velit in tortor mollis hendrerit.",
+  "featured_image_url": "/images/post/6.jpg",
+  "published_at": "2017/06/15 06:13:01"
+}

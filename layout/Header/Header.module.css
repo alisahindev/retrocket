@@ -1,0 +1,54 @@
+.header {
+  background-color: #fff;
+  padding: 8px 20px;
+  /* shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  /* sticky */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.logo h1 {
+  /* gradient colorize */
+  background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header nav {
+  margin: auto;
+}
+
+.header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header nav ul li {
+  list-style: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.header nav ul li a {
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.active {
+  background: rgb(51, 48, 48);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

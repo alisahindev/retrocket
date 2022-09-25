@@ -1,0 +1,13 @@
+{
+  "id": 8,
+  "user": {
+    "id": 2,
+    "name": "Jonathon",
+    "surname": "Delarosa",
+    "profile_image": "/images/avatars/2.jpg"
+  },
+  "title": "Morbi rutrum elit vitae",
+  "content": "Nullam volutpat purus eu lorem iaculis fermentum. Proin pretium magna id libero imperdiet, in accumsan urna commodo. Mauris interdum erat eu augue imperdiet ullamcorper ut eu leo. Morbi in ante ac massa hendrerit condimentum. Ut ut nunc ut nibh sodales dignissim tristique a felis. Etiam non auctor nibh, id finibus lacus. Sed est erat, vulputate eget dui nec, condimentum hendrerit lectus. Nunc semper efficitur libero, ut viverra velit consequat quis. Mauris sollicitudin arcu eget metus congue, at suscipit arcu volutpat. Etiam in sapien vel tellus ornare hendrerit. Morbi dictum auctor tempus. Proin scelerisque nisi vel placerat interdum. Integer sit amet risus ut justo feugiat gravida.",
+  "featured_image_url": "/images/post/8.jpg",
+  "published_at": "2017/06/17 23:45:12"
+}

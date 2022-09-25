@@ -1,0 +1,67 @@
+{
+  "links": {
+    "next_url": "/posts/3.json"
+  },
+  "data": [
+    {
+      "id": 6,
+      "user": {
+        "id": 3,
+        "name": "Sebastian",
+        "surname": "Rogers",
+        "profile_image": "/images/avatars/3.jpg"
+      },
+      "title": "Aenean feugiat ligula non nulla gravida iaculis",
+      "featured_image_url": "/images/post/6.jpg",
+      "published_at": "2017/06/15 06:13:01"
+    },
+    {
+      "id": 7,
+      "user": {
+        "id": 1,
+        "name": "Charlene",
+        "surname": "Frey",
+        "profile_image": "/images/avatars/1.jpg"
+      },
+      "title": "Donec nec augue eget dui egestas fringilla porta non lacus",
+      "featured_image_url": "/images/post/7.jpg",
+      "published_at": "2017/06/16 09:13:51"
+    },
+    {
+      "id": 8,
+      "user": {
+        "id": 2,
+        "name": "Jonathon",
+        "surname": "Delarosa",
+        "profile_image": "/images/avatars/2.jpg"
+      },
+      "title": "Morbi rutrum elit vitae",
+      "featured_image_url": "/images/post/8.jpg",
+      "published_at": "2017/06/17 23:45:12"
+    },
+    {
+      "id": 9,
+      "user": {
+        "id": 3,
+        "name": "Sebastian",
+        "surname": "Rogers",
+        "profile_image": "/images/avatars/3.jpg"
+      },
+      "title": "Vestibulum bibendum odio at mollis",
+      "featured_image_url": "/images/post/9.jpg",
+      "published_at": "2017/06/18 13:31:51"
+    },
+    {
+      "id": 10,
+      "user": {
+        "id": 1,
+        "name": "Charlene",
+        "surname": "Frey",
+        "profile_image": "/images/avatars/1.jpg"
+      },
+      "title": "Etiam faucibus dui ac odio vestibulum, eget malesuada diam venenatis",
+      "featured_image_url": "/images/post/10.jpg",
+      "published_at": "2017/06/19 03:43:11"
+    }
+  ]
+}

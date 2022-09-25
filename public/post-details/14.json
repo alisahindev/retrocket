@@ -1,0 +1,13 @@
+{
+  "id": 14,
+  "user": {
+    "id": 2,
+    "name": "Jonathon",
+    "surname": "Delarosa",
+    "profile_image": "/images/avatars/2.jpg"
+  },
+  "title": "Sed rhoncus sapien a nunc vestibulum sodales",
+  "content": "Morbi mollis, felis nec blandit porttitor, libero sapien porttitor ex, eu vestibulum tellus felis scelerisque nulla. Donec et velit eleifend, placerat diam eget, aliquam turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam a pellentesque felis. Nunc sit amet volutpat lectus, sed fermentum urna. Morbi imperdiet tellus lectus, sed luctus velit luctus non. Fusce ultricies erat sit amet tincidunt accumsan. Nunc elementum erat vitae neque fringilla, vel fringilla diam molestie. Quisque a lobortis nisl. Curabitur quis velit nec augue egestas sollicitudin.",
+  "featured_image_url": "/images/post/14.jpg",
+  "published_at": "2017/06/23 11:37:19"
+}

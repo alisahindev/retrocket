@@ -1,0 +1,13 @@
+{
+  "id": 10,
+  "user": {
+    "id": 1,
+    "name": "Charlene",
+    "surname": "Frey",
+    "profile_image": "/images/avatars/1.jpg"
+  },
+  "title": "Etiam faucibus dui ac odio vestibulum, eget malesuada diam venenatis",
+  "content": "Etiam sit amet purus in orci maximus finibus non in tellus. Fusce pellentesque, nunc a convallis lacinia, elit eros interdum ex, vel scelerisque justo nisl eu tellus. In egestas sed quam id fringilla. Suspendisse lectus felis, consequat nec ex a, consectetur lacinia felis. Fusce quis justo vulputate, interdum metus a, dignissim sapien. Pellentesque a nisi a ante iaculis posuere ac eu odio. Donec et libero quis felis consequat semper. Proin commodo justo sit amet lorem bibendum, quis aliquam ligula volutpat.",
+  "featured_image_url": "/images/post/10.jpg",
+  "published_at": "2017/06/19 03:43:11"
+}

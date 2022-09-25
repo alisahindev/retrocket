@@ -1,0 +1,67 @@
+{
+  "links": {
+    "next_url": "/posts/2.json"
+  },
+  "data": [
+    {
+      "id": 1,
+      "user": {
+        "id": 1,
+        "name": "Charlene",
+        "surname": "Frey",
+        "profile_image": "/images/avatars/1.jpg"
+      },
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "featured_image_url": "/images/post/1.jpg",
+      "published_at": "2017/06/10 23:15:43"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 2,
+        "name": "Jonathon",
+        "surname": "Delarosa",
+        "profile_image": "/images/avatars/2.jpg"
+      },
+      "title": "In nec leo rutrum, euismod orci ut, fringilla ipsum",
+      "featured_image_url": "/images/post/2.jpg",
+      "published_at": "2017/06/11 15:15:43"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 3,
+        "name": "Sebastian",
+        "surname": "Rogers",
+        "profile_image": "/images/avatars/3.jpg"
+      },
+      "title": "In eu risus pellentesque, luctus enim sit amet, commodo mi",
+      "featured_image_url": "/images/post/3.jpg",
+      "published_at": "2017/06/12 13:55:33"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 1,
+        "name": "Charlene",
+        "surname": "Frey",
+        "profile_image": "/images/avatars/1.jpg"
+      },
+      "title": "Phasellus accumsan purus sed consequat hendrerit",
+      "featured_image_url": "/images/post/4.jpg",
+      "published_at": "2017/06/13 15:15:36"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 2,
+        "name": "Jonathon",
+        "surname": "Delarosa",
+        "profile_image": "/images/avatars/2.jpg"
+      },
+      "title": "Vestibulum vitae justo faucibus, tristique diam a, lacinia leo",
+      "featured_image_url": "/images/post/5.jpg",
+      "published_at": "2017/06/14 03:43:11"
+    }
+  ]
+}

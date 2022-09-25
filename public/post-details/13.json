@@ -1,0 +1,13 @@
+{
+  "id": 13,
+  "user": {
+    "id": 1,
+    "name": "Charlene",
+    "surname": "Frey",
+    "profile_image": "/images/avatars/1.jpg"
+  },
+  "title": "Nulla pharetra justo quis diam lobortis, vitae dictum",
+  "content": "Mauris ipsum eros, mollis id ipsum et, feugiat cursus velit. Vivamus malesuada varius massa ac tempus. Mauris cursus odio eget massa blandit luctus. Donec semper non neque posuere elementum. Curabitur tristique, erat semper luctus feugiat, lacus quam congue elit, fringilla pellentesque tortor eros eu quam. Vivamus mattis lacus vel libero interdum, non iaculis sapien mollis. Phasellus efficitur posuere consectetur. Morbi cursus quam enim, eu auctor arcu maximus sit amet. Integer nec sapien sed sem aliquet bibendum id at nulla. Donec viverra pellentesque volutpat. Curabitur condimentum blandit velit id elementum. In bibendum massa quis arcu consequat pellentesque. Sed rhoncus sem ut quam commodo dignissim.",
+  "featured_image_url": "/images/post/13.jpg",
+  "published_at": "2017/06/22 17:45:44"
+}

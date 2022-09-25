@@ -1,0 +1,13 @@
+{
+  "id": 7,
+  "user": {
+    "id": 1,
+    "name": "Charlene",
+    "surname": "Frey",
+    "profile_image": "/images/avatars/1.jpg"
+  },
+  "title": "Donec nec augue eget dui egestas fringilla porta non lacus",
+  "content": "Sed a metus sit amet diam condimentum tempus. In sed quam libero. Curabitur eu cursus nunc. Suspendisse vel enim iaculis risus molestie tincidunt vitae id lacus. Nulla porttitor volutpat risus sed venenatis. Fusce maximus mollis lorem, quis eleifend tellus mollis eget. Ut eget tempor velit. Pellentesque egestas ac purus vitae commodo. Mauris non nisi ac quam volutpat pulvinar. Duis sit amet felis et tellus porta scelerisque. Donec eu congue mauris. Morbi interdum pharetra lobortis.",
+  "featured_image_url": "/images/post/7.jpg",
+  "published_at": "2017/06/16 09:13:51"
+}

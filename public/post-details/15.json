@@ -1,0 +1,13 @@
+{
+  "id": 15,
+  "user": {
+    "id": 3,
+    "name": "Sebastian",
+    "surname": "Rogers",
+    "profile_image": "/images/avatars/3.jpg"
+  },
+  "title": "Aenean eget augue eu diam molestie tincidunt",
+  "content": "Quisque at dolor consequat, auctor mauris ut, viverra urna. Suspendisse id sodales tellus. Integer auctor lacus et justo dignissim, eu tempor est elementum. Curabitur volutpat consectetur lorem eu egestas. Aliquam elementum nulla in arcu convallis aliquet. Donec tempor suscipit facilisis. Sed vitae enim sit amet leo egestas iaculis ac in leo. Proin ex ipsum, consequat quis velit et, sodales rutrum nisl. Etiam sed maximus urna, et tincidunt tellus. Sed lobortis magna quis eros porttitor accumsan. In tortor dolor, pretium id bibendum a, maximus scelerisque augue. Phasellus in erat purus.",
+  "featured_image_url": "/images/post/15.jpg",
+  "published_at": "2017/06/24 10:10:23"
+}

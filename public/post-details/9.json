@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "user": {
+    "id": 3,
+    "name": "Sebastian",
+    "surname": "Rogers",
+    "profile_image": "/images/avatars/3.jpg"
+  },
+  "title": "Vestibulum bibendum odio at mollis",
+  "content": "Aenean vestibulum eros sed metus molestie euismod. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed posuere dolor enim, sit amet mattis ex sollicitudin consequat. Sed congue mattis erat ac egestas. Sed aliquet metus quis neque semper euismod. Mauris tempus tellus quis neque blandit, vitae aliquam est volutpat. Donec lorem ex, pulvinar nec mi et, venenatis tempus orci. Donec gravida hendrerit nibh et interdum. Fusce id magna laoreet ipsum ullamcorper fringilla vel ut lectus. In nec velit convallis, mattis quam a, hendrerit libero. Morbi nec placerat nisl, vitae viverra purus.",
+  "featured_image_url": "/images/post/9.jpg",
+  "published_at": "2017/06/18 13:31:51"
+}

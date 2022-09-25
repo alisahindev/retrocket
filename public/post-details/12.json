@@ -1,0 +1,13 @@
+{
+  "id": 12,
+  "user": {
+    "id": 3,
+    "name": "Sebastian",
+    "surname": "Rogers",
+    "profile_image": "/images/avatars/3.jpg"
+  },
+  "title": "Aliquam ac justo vitae lorem feugiat hendrerit id molestie",
+  "content": "Aliquam ac leo dapibus metus porttitor tempor. Suspendisse ac dolor nec libero volutpat ullamcorper dapibus eu dolor. Cras vitae vehicula enim, sed laoreet erat. Sed ac velit neque. Nunc justo nibh, pellentesque eget ex in, elementum aliquam quam. Aliquam luctus quis justo vitae pulvinar. Ut fermentum sit amet felis ut feugiat. Morbi lacinia libero eget mi scelerisque malesuada. Quisque convallis lectus eu interdum tristique. Vestibulum ac venenatis libero. Phasellus eu velit cursus, venenatis tortor id, consequat ipsum. Donec tempus mauris ac sem laoreet blandit sit amet eu felis.",
+  "featured_image_url": "/images/post/12.jpg",
+  "published_at": "2017/06/21 22:55:18"
+}

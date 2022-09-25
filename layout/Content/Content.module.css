@@ -1,0 +1,6 @@
+.content {
+  min-height: calc(100vh - 64px);
+  padding: 24px 48px;
+  overflow: hidden;
+  overflow-y: auto;
+}
