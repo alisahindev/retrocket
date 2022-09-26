@@ -22,7 +22,6 @@ const Home: NextPage = ({ initalPosts, count }: any) => {
         console.log(err);
       });
     setLoading(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   const { push } = useRouter();
@@ -51,11 +50,8 @@ const Home: NextPage = ({ initalPosts, count }: any) => {
 
 export async function getStaticProps() {
   const initalPosts = data;
-
-  // get JSON count in posts folder for pagination
   // @ts-ignore
   const fileNames = await require.context("../public/posts", false, /\.json$/);
-  // get file count in posts folder
   const jsonFiles = fileNames.keys().map((fileName: string) => {
     return fileName.replace(/^.*[\\\/]/, "").slice(0, -5);
   });

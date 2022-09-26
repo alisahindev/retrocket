@@ -18,15 +18,11 @@ const Authors: NextPage = ({ users }: any) => {
 };
 
 export async function getStaticProps() {
-  // we have 3 file in users folder so we need to get 3 json file
   // @ts-ignore
   const fileNames = await require.context("../public/users/", false, /\.json$/);
-
-  // get file count in users folder
   const jsonFiles = fileNames
     .keys()
     .map((fileName: string) => {
-      // file name path içeriyorsa dahil etme
       if (fileName.includes("public/users")) {
         return;
       }

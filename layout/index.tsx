@@ -1,4 +1,3 @@
-import LastView from "components/LastView";
 import { Routes } from "constants/Routes";
 import Head from "next/head";
 import React from "react";
