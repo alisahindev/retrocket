@@ -1,11 +1,12 @@
 import Card from "components/Card";
+import LastView from "components/LastView";
 import Pagination from "components/Pagination";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import data from "../public/posts/1.json";
 
-const Home: NextPage = ({ initalPosts }: any) => {
+const Home: NextPage = ({ initalPosts, count }: any) => {
   const [posts, setPosts] = useState(initalPosts.posts);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -16,7 +17,6 @@ const Home: NextPage = ({ initalPosts }: any) => {
       .then((res) => res.json())
       .then((data) => {
         setPosts(data.data);
-        console.log(data.data);
       })
       .catch((err) => {
         console.log(err);
@@ -38,20 +38,33 @@ const Home: NextPage = ({ initalPosts }: any) => {
           onClick={() => push(`/post/${post.id}`)}
         />
       ))}
-      <Pagination setPage={setPage} loading={loading} selectedPage={page} />
+      <Pagination
+        setPage={setPage}
+        loading={loading}
+        selectedPage={page}
+        pageCount={count}
+      />
+      <LastView />
     </>
   );
 };
+
 export async function getStaticProps() {
-  // Call an external API endpoint to get posts.
-  // You can use any data fetching library
-  // const res = await fetch("http://localhost:3000/posts/3.json");
-  // import posts from json file
   const initalPosts = data;
-  // will receive `posts` as a prop at build time
+
+  // get JSON count in posts folder for pagination
+  // @ts-ignore
+  const fileNames = await require.context("../public/posts", false, /\.json$/);
+  // get file count in posts folder
+  const jsonFiles = fileNames.keys().map((fileName: string) => {
+    return fileName.replace(/^.*[\\\/]/, "").slice(0, -5);
+  });
+  const count = jsonFiles.length / 2;
+
   return {
     props: {
       initalPosts,
+      count,
     },
   };
 }

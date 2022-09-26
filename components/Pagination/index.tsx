@@ -5,21 +5,27 @@ type IPagination = {
   setPage: (Page: number) => void;
   selectedPage?: number;
   loading?: boolean;
+  pageCount?: number;
 };
 
-const Pagination = ({ setPage, selectedPage, loading }: IPagination) => {
+const Pagination = ({
+  setPage,
+  selectedPage,
+  loading,
+  pageCount,
+}: IPagination) => {
   return (
     <div className={styles.pagination}>
-      {[1, 2, 3].map((item, index) => {
+      {[...Array(pageCount)].map((_, index) => {
         return !loading ? (
           <button
             className={`${styles.button} ${
-              selectedPage === item ? styles.selected : ""
+              selectedPage === index + 1 ? styles.selected : ""
             }`}
-            key={index}
-            onClick={() => setPage(item)}
+            key={index + 1}
+            onClick={() => setPage(index + 1)}
           >
-            {item}
+            {index + 1}
           </button>
         ) : (
           <span>Loading...</span>

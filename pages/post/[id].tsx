@@ -1,9 +1,13 @@
 import Card from "components/Card";
 import { NextPage } from "next";
-import React from "react";
-import aa from "../../public/post-details/1.json";
+import React, { useEffect } from "react";
 
 const Post: NextPage = ({ postData }: any) => {
+  // set last view data to local storage
+  useEffect(() => {
+    localStorage.setItem("lastView", JSON.stringify(postData));
+  }, [postData]);
+
   return (
     <div>
       <Card
@@ -17,8 +21,7 @@ const Post: NextPage = ({ postData }: any) => {
   );
 };
 
-export async function getStaticPaths(context: any) {
-  console.log(context, "context path");
+export async function getStaticPaths() {
   //@ts-ignore
   const fileNames = await require.context(
     "../../public/post-details",
@@ -43,13 +46,14 @@ export async function getStaticPaths(context: any) {
 
 export async function getStaticProps(context: any) {
   const { params } = context;
-  console.log(params, "heebelee");
-
-  const postData = await import(`../public/post-details/${params.id}.json`);
+  const postData = await import(
+    `public/post-details/${parseInt(params.id)}.json`
+  );
+  const data = JSON.parse(JSON.stringify(postData));
 
   return {
     props: {
-      postData,
+      postData: data,
     },
   };
 }

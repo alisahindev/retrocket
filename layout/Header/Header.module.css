@@ -12,7 +12,7 @@
   z-index: 999;
 }
 
-.logo h1 {
+.logo {
   /* gradient colorize */
   background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00);
   -webkit-background-clip: text;

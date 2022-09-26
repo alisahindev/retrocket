@@ -9,9 +9,18 @@ type ICard = {
   onClick?: () => void;
   content?: string;
   publish?: string;
+  isProfile?: boolean;
 };
 
-const Card = ({ title, img, author, onClick, content, publish }: ICard) => {
+const Card = ({
+  title,
+  img,
+  author,
+  onClick,
+  content,
+  publish,
+  isProfile,
+}: ICard) => {
   return (
     <div className={styles.card}>
       <h2 className={styles.title}>{title}</h2>
@@ -21,7 +30,7 @@ const Card = ({ title, img, author, onClick, content, publish }: ICard) => {
           alt={title}
           width={600}
           height={400}
-          objectFit='cover'
+          objectFit={isProfile ? "contain" : "cover"}
           priority
           onClick={onClick}
         />

@@ -16,9 +16,9 @@ const Header = ({ logoName, routes }: Props) => {
 
   return (
     <div className={styles.header}>
-      <span className={styles.logo}>
-        <h1>{logoName}</h1>
-      </span>
+      <Link href={"/"}>
+        <h1 className={styles.logo}>{logoName}</h1>
+      </Link>
       <nav>
         <ul>
           {routes?.map((route, index) => (
